@@ -1,17 +1,21 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Samanyu A Saji",
+  title: "R&D Engineer, Android",
+  description: "Portfolio website of Samanyu A Saji",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "samanyusaji18@gmail.com",
+    linkedin: "https://linkedin.com/in/samanyu13",
+    github: "https://github.com/Samanyu13",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Android Engineer with 3+ years of experience building large-scale native Android systems and user-facing features for flagship Samsung devices. " +
+    "Experienced in Kotlin and Java with strong expertise in Android frameworks, SystemUI, Jetpack components, and modern architectural patterns including MVVM and MVC. " +
+    "Currently working at Samsung Research as an R&D Engineer, contributing to core platform development across SystemUI, Android XR, Samsung DeX, and AI-powered NowBrief. "+
+    "Proven experience in designing modular architectures, implementing Runtime Resource Overlays, building notification systems, and optimizing UI performance for low-latency and memory efficiency. "+
+    "Strong understanding of Android internals, lifecycle management, multithreading with coroutines, and system-level feature integration. " +
+    "Comfortable working in large codebases, collaborating cross-functionally with global teams, and owning features end-to-end from design to production.",
+  skills: ["Kotlin", "Java", "Android", "Jetpack Compose", "C++", "Python"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
@@ -37,55 +41,70 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Samsung Research Institute, Noida",
+      title: "R&D Engineer, Android",
+      dateRange: "Jauly 2022 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Collaborated with Google and Samsung HQ in defining the SystemUI framework for Android XR, OneUI.",
+        "Led the end-to-end implementation of the Notifications and App notification settings for Android XR",
+        "Built NowBrief Widget settings and the Jetpack Compose migration of Ui elements",
+        "PoC for Classic DeX taskbar features used across flagship Samsung devices globally",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Indian Institute of Technology, Jodhpur",
+      title: "Teaching Assistant",
+      dateRange: "September 2020 - March 2022",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Courses: Introduction to Computer Science, Machine Learning",
+        "Led lab sessions, created assignments, and evaluated student submissions.",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Indian Institute of Technology, Jodhpur",
+      title: "Webmaster",
+      dateRange: "Aug 2021 - May 2022",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Created and maintained official IITJ student chapter website",
+        "Modeled and built the website for vehicular networks research lab in IITJ",
       ],
     },
+    {
+      company: "QuEST Global, Technopark, Trivandrum",
+      title: "Summer Intern",
+      dateRange: "July 2019 - August 2019",
+      bullets: [
+        "Set up a machine learning project for autonomously tagging stack-overflow questions"
+      ]
+    },
+        {
+      company: "Central Computing Facility, College of Engineering ",
+      title: "Software Intern",
+      dateRange: "June 2018 - August 2018",
+      bullets: [
+        "Improved CampusSoft, the software that manages the day to day activities of the CET",
+        "Worked on the front end of college website using React javascript library"
+      ]
+    }
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Indian Institute of Technology, Jodhpur",
+      degree: "Master of Technology (M.Tech) in Computer Science",
+      dateRange: "2020 - 2022",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Graduated with 8.05 GPA",
+        "Majored in security, privacy preservation and blockchain",
+        "First Runner Up: IS3, IIT Jodhpur's ACM Student Chapter Ideathon, 2022",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "College of Engineering, Trivandrum",
+      degree: "Bachelor of Technology (B.Tech) in Computer Science",
+      dateRange: "2016 - 2020",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Graduated with 9.05 GPA",
+        "Collaboration with KSRTC aimed at improving resource allocation of public transport",
       ],
     },
   ],
