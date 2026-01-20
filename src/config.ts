@@ -45,6 +45,13 @@ export const siteConfig = {
       link: "https://github.com/ccfcet/karma",
       skills: ["Node.js", "Sequelize", "Mocha-Chai"],
     },
+        {
+      name: "VANETs IITJ",
+      description:
+        "Created, organized and maintained the official website of Vehicular Adhoc Networks Lab (VANETs), IIT Jodhpur.",
+      link: "https://github.com/vanets-iitj/vanets-iitj.github.io",
+      skills: ["HTML", "CSS", "javascript", "PHP"],
+    },
   ],
   publications: [
   {
