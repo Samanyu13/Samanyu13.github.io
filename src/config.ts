@@ -18,27 +18,55 @@ export const siteConfig = {
   skills: ["Kotlin", "Java", "Android", "Jetpack Compose", "C++", "Python"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Android Starters",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A growing, curated collection of beginner-friendly Android projects designed to help developers learn modern Android development by exploring simple real-world examples.",
+      link: "https://github.com/Samanyu13/android-starters",
+      skills: ["Kotlin", "Jetpack Compose", "Auth", "Navigation", "DB", "WorkManager", "Retrofit"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Resource Optimization Engine for KSRTC using Machine Learning",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "An app-driven model for KSRTC that integrates real-time bus tracking and seat booking with machine learning to predict passenger patterns, optimize fuel consumption, and increase profitability.",
+      link: "https://github.com/Samanyu13/I-Love-KSRTC",
+      skills: ["Flutter", "WebSockets"],
     },
     {
-      name: "ExtensionKit",
+      name: "KSRTC App Backend",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "The model backend framework for the above mentioned KSRTC app-driven model.",
+      link: "https://github.com/Samanyu13/KSRTC-Backend",
+      skills: ["Node.js", "Sequelize", "ExpressJS", "Machine Learning"],
+    },
+        {
+      name: "Karma",
+      description:
+        "An Information Management Framework for colleges, delivering a RESTful API service to centralize educational data and enhance institutional efficiency.",
+      link: "https://github.com/ccfcet/karma",
+      skills: ["Node.js", "Sequelize", "Mocha-Chai"],
     },
   ],
+  publications: [
+  {
+    title: "CuraFrame: a patient-centric secure and privacy preserving medical framework with zero-leak using blockchain",
+    description: "Proposes Curaframe, a secure record-keeping framework specifically crafted for Electronic Health Records (EHRs). " + 
+    "A consensus algorithm, GNG-dBFT, was proposed with a 9% lower consensus delay and 19% throughput increase compared to the state-of-the-art schemes. " + 
+    "Also introduced a new lightweight authentication mechanism using zero-knowledge proof to ensure privacy-preserving access control",
+    publisher: "Springer Nature / Peer-to-Peer Networking and Applications",
+    year: '2025',
+    link: "https://link.springer.com/article/10.1007/s12083-025-02061-1",
+    tags: ["Blockchain", "EHR", "Security"],
+  },
+    {
+    title: "Fast Implementation of AES Modes Based on Turing Architecture",
+    description: "Evaluates the performance of AES encryption modes (ECB, CBC, CTR) across NVIDIA’s Turing and Pascal GPU architectures, " + 
+    "demonstrating that parallelizable modes on Turing-based hardware, such as the GTX 1650, significantly maximize cryptographic throughput.",
+    publisher: "Springer Nature /  Advancements in Interdisciplinary Research",
+    year: '2022',
+    link: "https://link.springer.com/chapter/10.1007/978-3-031-23724-9_44",
+    tags: ["AES", "Cryptography", "GPU"],
+  },
+],
   experience: [
     {
       company: "Samsung Research Institute, Noida",
